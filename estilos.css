@@ -1,0 +1,135 @@
+body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    #titulo {
+        border: 2px solid #5A9BD5;       
+        box-shadow: 0 4px 8px rgba(90, 155, 213, 0.4);  
+        text-align: center;               
+        padding: 20px;                   
+        max-width: 300px;                
+        margin: 20px auto;               
+        border-radius: 8px;              
+        background-color: #2A4D7C;       /* azul escuro */
+        color: white;                    
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5), 2px 2px 4px rgba(128, 128, 128, 0.3);
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    #biografia {
+        border: 2px solid #5A9BD5;
+        box-shadow: 0 4px 8px rgba(90, 155, 213, 0.4);
+        background-color: #6798D1; /* azul médio suave */
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 8px;
+        color: white;
+        text-align: justify;
+        font-size: 1.4em;
+    }
+
+    #hobby {
+        background-color: #6798D1;
+        border: 2px solid #5A9BD5;
+        box-shadow: 0 4px 8px rgba(90, 155, 213, 0.4);
+        max-width: 220px;            /* tamanho mais compacto */
+        margin: 20px auto;
+        padding: 12px 20px;          /* padding menor */
+        border-radius: 8px;
+        text-align: left;
+        font-size: 1.1em;
+        color: white;
+        list-style-position: inside;
+    }   
+
+    #atividade {
+        margin-bottom: 16px;
+    }
+
+    #foto {
+        display: block;
+        margin: 20px auto; /* centraliza horizontalmente */
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #5A9BD5;
+        box-shadow: 0 4px 8px rgba(90, 155, 213, 0.4);
+    }
+
+    #paises {
+        border-collapse: collapse;
+        margin: 20px auto;
+        width: 60%;
+        box-shadow: 0 4px 10px rgba(90, 155, 213, 0.3);
+        border-radius: 8px;
+        overflow: hidden; /* para o border-radius funcionar */
+        font-family: Arial, sans-serif;
+    }
+
+    #paises th, #paises td {
+        border: 1px solid #5A9BD5;
+        padding: 12px 15px;
+        text-align: center;
+        color: white;
+    }
+
+    #paises th {
+        background-color: #2A4D7C;
+        font-size: 1.2em;
+    }   
+
+    /* Aplica um fundo azul um pouco mais escuro nas linhas ímpares da tabela */
+
+    #paises tr:nth-child(even) td {
+        background-color: #6798D1;
+    }
+
+    /* Aplica um fundo azul claro nas linhas pares da tabela */
+
+    #paises tr:nth-child(odd) td {
+        background-color: #4A7ABB;
+    }
+
+    #bloco-noticia {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        background-color: #2A4D7C; 
+        color: white;
+        padding: 12px 25px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+        box-shadow: 0 4px 6px rgba(42, 77, 124, 0.6);
+        transition: background-color 0.3s ease;
+        z-index: 1000;
+    }
+
+    #bloco-noticia:hover {
+        background-color: #1e3a5a;  /* mudando cor ao passar mouse em cima */
+    }
+
+    #meuBotao {
+        display: block;
+        margin: 20px auto;
+        background-color: #2A4D7C;  /* azul escuro */
+        color: white;
+        border: none;
+        padding: 12px 30px;
+        border-radius: 6px;
+        font-size: 1em;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(42, 77, 124, 0.5);
+        transition: background-color 0.3s ease;
+        font-family: Arial, sans-serif;
+    }
+
+    #meuBotao:hover {
+        background-color: #1e3a5a;  /* azul mais escuro no hover */
+    }
